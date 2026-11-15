@@ -272,3 +272,26 @@ function buildGallery(el) {
 }
 
 document.querySelectorAll("[data-gallery]").forEach(buildGallery);
+
+// ============================================================
+//  Apparition douce des blocs au défilement
+//  Le CSS ne masque ces blocs que sous html.js ; ils s'affichent tous
+//  au bout de 2,5 s au cas où l'observateur ne se déclencherait pas.
+// ============================================================
+
+const revealTargets = document.querySelectorAll(".project, .timeline li, .skill-card");
+if ("IntersectionObserver" in window) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  revealTargets.forEach((el) => {
+    el.classList.add("reveal");
+    observer.observe(el);
+  });
+  setTimeout(() => revealTargets.forEach((el) => el.classList.add("visible")), 2500);
+}
