@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abdul Koyoum EHYSSE | Portfolio</title>
+  <meta name="description" content="Portfolio d'Abdul Koyoum EHYSSE, élève ingénieur en Génie des Systèmes Industriels à l'INSA Centre Val de Loire : robotique, mécatronique, méthodes industrielles et données.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Les animations ne masquent le contenu que si le JavaScript tourne -->
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">Abdul EHYSSE</a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="#about" data-i18n="nav.about">À propos</a>
+        <a href="#projects" data-i18n="nav.projects">Projets</a>
+        <a href="#experience" data-i18n="nav.experience">Parcours</a>
+        <a href="#skills" data-i18n="nav.skills">Compétences</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <button class="lang-switch" id="lang-switch" type="button" aria-label="Switch to English">EN</button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Élève ingénieur · INSA Centre Val de Loire</p>
+          <h1>Abdul Koyoum EHYSSE</h1>
+          <p class="hero-title" data-i18n="hero.title">Robotique, mécatronique et systèmes industriels</p>
+          <p class="hero-lead" data-i18n="hero.lead">De la CAO à l'impression 3D et à l'électronique embarquée, je conçois des systèmes qui bougent : un bras robotique guidé par vision, une voiture autonome et, en ce moment, une trottinette électrique de ville.</p>
+          <p class="availability"><span class="dot" aria-hidden="true"></span><span data-i18n="hero.availability">Recherche un stage de 16 à 21 semaines, du 5 avril au 27 août 2027 · Mobile partout en France</span></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" id="cv-link" href="assets/cv/CV_Abdul_EHYSSE_FR.pdf" target="_blank" rel="noopener" data-i18n="hero.cv">Télécharger mon CV</a>
+            <a class="btn btn-ghost" href="#contact" data-i18n="hero.contact">Me contacter</a>
+          </div>
+        </div>
+        <div class="hero-photo media" data-placeholder="AKE">
+          <img src="assets/img/photo-abdul.jpg" alt="Photo d'Abdul Koyoum EHYSSE" onerror="this.remove()">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ A PROPOS ============ -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2 data-i18n="about.title">À propos</h2>
+        <p data-i18n="about.p1">Élève ingénieur en 4e année à l'INSA Centre Val de Loire, en Génie des Systèmes Industriels (diplôme attendu en 2028), après une prépa intégrée et une 1re année de cycle ingénieur en génie électrique à l'École Polytechnique d'Abomey-Calavi (EPAC), au Bénin.</p>
+        <p data-i18n="about.p2">Ce qui me motive : passer d'un cahier des charges à un prototype qui fonctionne. En binôme, j'ai conçu un bras robotique guidé par vision et une voiture autonome, de la modélisation 3D jusqu'à la commande. À Bénin Excellence, j'ai enseigné la CAO et l'impression 3D, et assisté les cours d'IA, pour une centaine de participants.</p>
+        <ul class="facts">
+          <li><strong data-i18n="about.f1k">Basé à</strong><span data-i18n="about.f1v">Blois, France · Mobile partout en France</span></li>
+          <li><strong data-i18n="about.f2k">Langues</strong><span data-i18n="about.f2v">Français (natif), anglais (B1), fon et yoruba (compréhension)</span></li>
+          <li><strong data-i18n="about.f3k">Stage</strong><span data-i18n="about.f3v">16 à 21 semaines, du 5 avril au 27 août 2027</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJETS ============ -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 data-i18n="projects.title">Projets</h2>
+        <div class="projects">
+
+          <article class="project">
+            <div class="media gallery" data-gallery="trottinette" data-alt="Trottinette électrique de ville" data-placeholder="Trottinette électrique" data-placeholder-en="Electric scooter"></div>
+            <div class="project-body">
+              <p class="meta"><span class="badge" data-i18n="badge.ongoing">En cours</span> <span data-i18n="p0.org">Projet entrepreneurial en binôme</span> · <span data-i18n="p0.date">depuis juillet 2026</span></p>
+              <h3 data-i18n="p0.title">Trottinette électrique de ville</h3>
+              <p data-i18n="p0.desc">Conception d'une trottinette électrique de ville avec un objectif : maîtriser tout le processus, de l'idée au produit fini. Cahier des charges : moteur-roue de 350 W, batterie 48 V, 25 km/h (la vitesse maximale autorisée en France) et environ 50 km d'autonomie. Les pièces et l'usinage CNC sont commandés, le prototype est prévu en juillet 2027.</p>
+              <p class="role" data-i18n="p0.role">Mon rôle, en binôme : la CAO sous Fusion 360, la préparation de l'usinage (FAO), le choix du moteur et de la batterie, l'électronique, la programmation et le démarchage des fournisseurs.</p>
+              <ul class="tags"><li>Fusion 360</li><li>CAO / FAO</li><li data-i18n="tag.powertrain">Motorisation et batterie</li><li data-i18n="tag.electronics">Électronique</li><li data-i18n="tag.manufacturing">Fabrication</li><li data-i18n="tag.suppliers">Relation fournisseurs</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="media gallery" data-gallery="urbaqua" data-alt="Kit d'hydroponie Urbaqua" data-placeholder="Urbaqua" data-placeholder-en="Urbaqua"></div>
+            <div class="project-body">
+              <p class="meta"><span data-i18n="p3.org">Programme Les Entrepreneuriales INSA</span> · <span data-i18n="p3.date">novembre 2024 - juillet 2026</span></p>
+              <h3 data-i18n="p3.title">Urbaqua : kit d'hydroponie connecté</h3>
+              <p data-i18n="p3.desc">Projet entrepreneurial pour rendre l'agriculture urbaine accessible grâce à l'hydroponie. Deux modèles imprimés en 3D : une tour de culture modulaire et un cube compact. Chacun intègre un éclairage LED, une pompe de circulation d'eau, une ventilation et des capteurs de température et d'humidité pilotés par ESP32 et Arduino. Les prototypes ont été testés avec de vraies plantes, jusqu'aux premières pousses. Résultats : Prix Pépite, programme Les Entrepreneuriales INSA et 6 précommandes à VivaTech.</p>
+              <p class="role" data-i18n="p3.role">Mon rôle : co-fondateur, en charge de la CAO et de l'électronique, avec le business plan et les pitchs. J'ai quitté l'aventure à la création de l'entreprise, en juillet 2026, pour me consacrer à de nouveaux projets.</p>
+              <ul class="tags"><li data-i18n="tag.business">Entrepreneuriat</li><li data-i18n="tag.hydro">Hydroponie</li><li data-i18n="tag.product">Conception produit</li><li data-i18n="tag.print">Impression 3D</li><li data-i18n="tag.sensors">Capteurs ESP32</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="media gallery" data-gallery="bras-robotique" data-alt="Bras robotique" data-placeholder="Bras robotique" data-placeholder-en="Robotic arm"></div>
+            <div class="project-body">
+              <p class="meta"><span data-i18n="p1.org">Laboratoire d'IA de Bénin Excellence, en binôme</span> · <span data-i18n="p1.date">janvier - juin 2023</span></p>
+              <h3 data-i18n="p1.title">Bras robotique 4 axes guidé par vision</h3>
+              <p data-i18n="p1.desc">Le bras repère un composant sur le plateau grâce à une caméra, identifie sa nature avec un modèle YOLOv5 entraîné pour l'occasion, puis va le saisir et le déposer, avec un taux de réussite observé d'environ 90 %. Mécanique : moteurs pas-à-pas avec transmission par courroie, pince entraînée par un moteur CC avec capteur de fin de course. Commande : Arduino Uno et CNC Shield, pilotés depuis le PC en Python. Le projet est né d'une chaîne logistique simple sur tapis roulant, reconduite et améliorée en bras robotique, puis enseignée aux éditions 2023 et 2024 de Bénin Excellence.</p>
+              <p class="role" data-i18n="p1.role">Mon rôle : hardware conçu de A à Z (concept, CAO, impression 3D, câblage, tests), avec une refonte complète de la CAO, et la commande du bras ; participation à l'entraînement du modèle.</p>
+              <ul class="tags"><li>YOLOv5</li><li>Python</li><li>Arduino</li><li data-i18n="tag.vision">Vision par ordinateur</li><li data-i18n="tag.robotics">Robotique</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="media gallery" data-gallery="voiture-autonome" data-alt="Voiture autonome" data-placeholder="Voiture autonome" data-placeholder-en="Autonomous car"></div>
+            <div class="project-body">
+              <p class="meta"><span data-i18n="p2.org">Projet technique en binôme, Bénin</span> · <span data-i18n="p2.date">janvier - juin 2023</span></p>
+              <h3 data-i18n="p2.title">Voiture autonome</h3>
+              <p data-i18n="p2.desc">Petite voiture qui suit une piste et évite les obstacles uniquement grâce à sa caméra et à l'IA. Un Raspberry Pi traite l'image, un ESP32 commande les moteurs CC de propulsion et le servomoteur de direction. Le châssis a été conçu sous Fusion 360 et imprimé en 3D, à partir d'un cahier des charges et d'un dimensionnement des composants électroniques.</p>
+              <p class="role" data-i18n="p2.role">Mon rôle : la conception et la commande du véhicule, et la participation à l'entraînement des modèles.</p>
+              <ul class="tags"><li>Raspberry Pi</li><li>ESP32</li><li data-i18n="tag.vision">Vision par ordinateur</li><li>Fusion 360</li><li data-i18n="tag.print">Impression 3D</li></ul>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Autres projets : une ligne chacun, sans photo -->
+        <div class="others">
+          <h3 data-i18n="others.title">Autres projets</h3>
+          <ul class="others-list">
+            <li><strong data-i18n="others.elec.t">Microcontrôleur PIC18F45 (INSA, projet d'électronique)</strong><span data-i18n="others.elec.d">Programmation des entrées-sorties, des timers et du convertisseur analogique-numérique, et des liaisons SPI, USART et I2C.</span></li>
+            <li><strong data-i18n="others.be.t">Bureau d'études mécanique (INSA)</strong><span data-i18n="others.be.d">Dimensionnement, documentation et plans d'un réducteur de vitesse pour l'ouverture d'un portail sur rail.</span></li>
+            <li><strong data-i18n="others.app.t">Développement d'applications (INSA)</strong><span data-i18n="others.app.d">Jeu de bataille navale (Touché-coulé) en Python, avec une interface graphique Tkinter.</span></li>
+            <li><strong data-i18n="others.maq.t">Maquettes électroniques (EPAC, 2022)</strong><span data-i18n="others.maq.d">Maquettes de démonstration présentées à la Journée de l'étudiant en Génie Électrique.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PARCOURS ============ -->
+    <section id="experience" class="section">
+      <div class="container two-cols">
+        <div>
+          <h2 data-i18n="exp.title">Expériences</h2>
+          <ol class="timeline">
+            <li>
+              <p class="date" data-i18n="exp.kiabi.date">Juillet 2026 - aujourd'hui</p>
+              <h3 data-i18n="exp.kiabi.role">Conseiller de vente</h3>
+              <p class="org" data-i18n="exp.kiabi.org">Kiabi, Blois · CDI étudiant, 16 h/semaine</p>
+              <p data-i18n="exp.kiabi.desc">Caisse, conseil client, inventaires et retouches de vêtements.</p>
+            </li>
+            <li>
+              <p class="date" data-i18n="exp.bchef.date">Octobre 2024 - juillet 2026</p>
+              <h3 data-i18n="exp.bchef.role">Équipier polyvalent</h3>
+              <p class="org" data-i18n="exp.bchef.org">BCHEF, Blois · CDI étudiant, 18 h/semaine</p>
+              <p data-i18n="exp.bchef.desc">Ouverture et fermeture du restaurant, gestion des stocks, service en période d'affluence.</p>
+            </li>
+            <li>
+              <p class="date" data-i18n="exp.be.date">Août 2022 - juillet 2024</p>
+              <h3 data-i18n="exp.be.role">Concepteur et formateur en robotique</h3>
+              <p class="org" data-i18n="exp.be.org">Laboratoire d'IA de Bénin Excellence, Bénin</p>
+              <p data-i18n="exp.be.desc">Conception des projets enseignés aux éditions 2023 et 2024 : une chaîne logistique sur tapis roulant, reconduite et améliorée en bras robotique guidé par vision. Enseignement de la CAO et de l'impression 3D, et assistance aux cours de MicroPython, machine learning et deep learning pour une centaine de participants.</p>
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h2 data-i18n="edu.title">Formation</h2>
+          <ol class="timeline">
+            <li>
+              <p class="date" data-i18n="edu.insa.date">Septembre 2024 - 2028 (diplôme attendu)</p>
+              <h3 data-i18n="edu.insa.title">Cycle ingénieur, Génie des Systèmes Industriels (4e année)</h3>
+              <p class="org">INSA Centre Val de Loire, Blois</p>
+              <p data-i18n="edu.insa.mods">Modules : automatique et systèmes asservis, microcontrôleurs, électronique de puissance, éléments finis, gestion de production, qualité et MSP, bases de données, POO en C++.</p>
+            </li>
+            <li>
+              <p class="date" data-i18n="edu.epac.date">Septembre 2021 - juillet 2024</p>
+              <h3 data-i18n="edu.epac.title">Classes préparatoires intégrées et 1re année de cycle ingénieur, Génie Électrique</h3>
+              <p class="org" data-i18n="edu.epac.org">École Polytechnique d'Abomey-Calavi (EPAC), Bénin</p>
+            </li>
+            <li>
+              <p class="date" data-i18n="edu.eeia.date">Juillet 2022</p>
+              <h3 data-i18n="edu.eeia.title">École d'été sur l'Intelligence Artificielle</h3>
+              <p class="org" data-i18n="edu.eeia.org">Robotique, deep learning, électronique embarquée</p>
+            </li>
+            <li>
+              <p class="date" data-i18n="edu.bac.date">Juillet 2021</p>
+              <h3 data-i18n="edu.bac.title">Baccalauréat scientifique (série C), mention Assez Bien</h3>
+              <p class="org">Collège Privé Saint Laurent, Cotonou</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPETENCES ============ -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 data-i18n="skills.title">Compétences</h2>
+        <div class="skills">
+          <div class="skill-card">
+            <h3 data-i18n="skills.cad">Conception</h3>
+            <ul class="tags"><li>Fusion 360</li><li>SolidWorks</li><li>Onshape</li><li data-i18n="tag.fea">Éléments finis</li><li data-i18n="tag.print">Impression 3D</li><li data-i18n="tag.cam">FAO / usinage CNC</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 data-i18n="skills.prog">Programmation et IA</h3>
+            <ul class="tags"><li>Python</li><li>C/C++</li><li>SQL</li><li>YOLOv5</li><li data-i18n="tag.vision">Vision par ordinateur</li><li>Matlab / Simulink</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 data-i18n="skills.elec">Électronique et mesure</h3>
+            <ul class="tags"><li>Arduino</li><li>ESP32</li><li>Raspberry Pi</li><li>PIC18F45</li><li>KiCad</li><li>LabVIEW</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 data-i18n="skills.industry">Industrie</h3>
+            <ul class="tags"><li data-i18n="tag.control">Automatique</li><li data-i18n="tag.plc">Automates Unitronics (UniLogic)</li><li>Ladder</li><li>Grafcet</li><li data-i18n="tag.mfg">Méthodes de fabrication</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 data-i18n="skills.methods">Méthodes</h3>
+            <ul class="tags"><li data-i18n="tag.specs">Cahier des charges</li><li>Gantt</li><li data-i18n="tag.prod">Gestion de production</li><li data-i18n="tag.spc">Qualité et MSP</li><li>5M</li><li>5S</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 data-i18n="skills.langs">Langues</h3>
+            <ul class="tags"><li data-i18n="lang.fr">Français (natif)</li><li data-i18n="lang.en">Anglais (B1)</li><li data-i18n="lang.fon">Fon et yoruba (compréhension)</li></ul>
+          </div>
+        </div>
+        <p class="interests"><strong data-i18n="skills.engagement">Engagement :</strong> <span data-i18n="skills.engagementText">bénévole au Secours populaire (aide alimentaire) depuis janvier 2025.</span></p>
+        <p class="interests"><strong data-i18n="skills.interests">Centres d'intérêt :</strong> <span data-i18n="skills.interestsList">échecs, sport (tennis, running), lecture.</span></p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container narrow center">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p data-i18n="contact.lead">Un stage en robotique, en méthodes industrielles ou autour des données à proposer ? Écrivez-moi.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:abdulkoyoumehysse3@gmail.com">abdulkoyoumehysse3@gmail.com</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/abdulehysse" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year">2026</span> Abdul Koyoum EHYSSE</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
