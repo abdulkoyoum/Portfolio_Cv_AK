@@ -25,7 +25,7 @@ const EN = {
   "about.f1k": "Based in",
   "about.f1v": "Blois, France · Willing to relocate anywhere in France",
   "about.f2k": "Languages",
-  "about.f2v": "French (native), English (B1), Fon and Yoruba (understanding)",
+  "about.f2v": "French (native), English (B1)",
   "about.f3k": "Internship",
   "about.f3v": "16 to 21 weeks, April 5 – August 27, 2027",
 
@@ -78,7 +78,7 @@ const EN = {
   "tag.cam": "CAM / CNC machining",
   "tag.control": "Control engineering",
   "tag.plc": "Unitronics PLCs (UniLogic)",
-  "tag.mfg": "Manufacturing methods",
+  "tag.mfg": "Manufacturing processes",
   "tag.specs": "Specifications",
   "tag.prod": "Production management",
   "tag.spc": "Quality and SPC",
@@ -114,19 +114,18 @@ const EN = {
   "skills.cad": "Design",
   "skills.prog": "Programming and AI",
   "skills.elec": "Electronics and measurement",
-  "skills.industry": "Industry",
-  "skills.methods": "Methods",
+  "skills.industry": "Industrial systems",
+  "skills.methods": "Organisation and quality",
   "skills.langs": "Languages",
   "lang.fr": "French (native)",
   "lang.en": "English (B1)",
-  "lang.fon": "Fon and Yoruba (understanding)",
   "skills.engagement": "Volunteering:",
   "skills.engagementText": "Secours populaire (food aid charity) since January 2025.",
   "skills.interests": "Interests:",
   "skills.interestsList": "chess, sport (tennis, running), reading.",
 
   "contact.title": "Contact",
-  "contact.lead": "Have an internship in robotics, manufacturing or industrial data? Get in touch.",
+  "contact.lead": "Have an internship in robotics, mechatronics or industrial systems? Get in touch.",
 };
 
 // ============================================================
